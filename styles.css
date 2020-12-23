@@ -1,0 +1,215 @@
+body{
+	margin:0px;
+	/* background-image: url("background_img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; */
+}
+.logo
+{
+	width:20%;
+	height:90px;
+	float:left;
+	margin: 0px 10px;
+}
+.logo_img{
+	width:60%;
+	height:90px;
+	border-radius: 50%;	
+}
+.heading
+{
+	width:35%;
+	height:90px;
+	float:left;
+	text-align:center;
+	color:#38663c;
+	margin-left:5%;
+	margin-top:1%;
+	font-size:15pt;
+}
+.heading h1{
+	margin:0px;
+}
+.nav
+{
+	width:35%;
+	height:90px;
+	float:right;
+	margin-top:1%;
+}
+.hd1
+{
+width:100%;
+height:90px;
+background-color:#a8f7b1;
+display: sticky;
+}
+
+ul{
+	list-style:none;
+}
+li
+{
+	float:left;
+	margin-left:1%;
+	padding-left:1%;
+}
+
+.nav li a:hover{
+	color:black;
+}
+a
+{
+	text-decoration:none;
+	color:#38663c;
+	font-size:20px;
+}
+
+
+/* main content */
+form.search {
+	position:relative;
+	top:200px;
+	margin: auto;
+	width: 400px;
+	padding: 1em;
+	width:70%;
+	border-radius: 1em;
+	border:2px solid black;
+	background-color: white;
+}
+#search-option{
+	/* display:inline; */
+	width:100%;
+	height: 100%;
+	margin: 0px auto;
+	border:none;
+	/* border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden; */
+}
+#search-option:focus {
+	outline: none;
+  }
+
+  .vid {
+	position: fixed;
+	top: 89px;
+	bottom:0;
+	right:0;
+	min-width: 100%;
+	min-height: 100%;
+  }
+
+
+  /* Payment section */
+  form.form_pay{
+	  background-color:#ecffcd ;
+	position: relative;
+	margin: 0 auto;
+	margin-top:2%;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+  }
+
+  .payment input{
+	position: absolute;
+	left:30%;
+  }
+
+  .pay_label{
+	position: absolute;
+	left:35%;
+  }
+
+  #role-select,#pay-select{
+	position: absolute;
+	left:30%;
+  }
+
+  .option:hover {
+	background-color: #FF595C;
+  }
+
+
+  .online_hidden{
+	  display:none;
+  }
+
+  input:checked + .online_hidden {
+	display: block;
+  }
+
+  .cash_hidden{
+	  display: none;
+  }
+  input:checked + .cash_hidden {
+	display: block;
+  }
+
+  #pay_pos p{
+	position: absolute;
+	left:35%;
+  }
+
+   button{
+	   border-radius: 1rem;
+   }
+
+   button:focus{
+	border-radius: 1rem;
+   }
+   button:hover{
+	   background-color: #A8F7B1;
+   }
+
+   /* About */
+   /* .about_container{
+	column-width: 40em;
+    column-rule: 1px solid rgb(75, 70, 74);
+   }
+   .about_container2{
+	column-width: 20em;
+    column-rule: 1px solid rgb(75, 70, 74);
+   } */
+
+   .about_container{
+	display: flex;
+}
+
+.about_container>*{
+	margin: 0 10px;
+	flex: 1;
+	border:2px solid black;
+    flex-wrap: wrap;
+}
+
+img:hover {
+	width: 500px;
+	height: 200px;
+  }
+
+  .req{
+	  color:red;
+  }
+
+  input,option{
+	  border-radius:1rem;
+  }
+
+  input:focus , option:focus{
+	border-radius:1rem;
+	border:3px solid #a8f7b1;
+	outline: none;
+
+  }
+
+  /* Footer */
+  .footer{
+	  width:100%;
+	  height:90px;
+	  background-color: #a8f7b1;
+  }

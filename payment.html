@@ -1,0 +1,151 @@
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        
+	</head>
+
+<body>
+    <div class="hd1">
+        <div class="logo"><img src="logo.jpg" alter="TreeHouse LOGO" class="logo_img"/></div>
+        <div class="heading"><h1>Simform Tree House</h1></div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Green Garden</a></li>
+                <li><a href="payment.html">Book My Tree</a></li>
+            </ul>
+        </div>
+    </div>
+
+	<div class="container">
+	<form class="form_pay">
+        
+	<h1>Payment Form</h1>
+	<p>Required fields are followed by <strong><abrr title="required" class="req">*</abrr></strong>.</p>
+
+	<section>
+	
+	<fieldset>
+        <legend><h2>Personal Information</h2></legend>
+        <label for="pet-select">Role:</label>
+        <div class="payment">
+        <select name="role" id="role-select">
+            <option class="option" value="">--Please choose an option--</option>
+            <option class="option" value="family">Family</option>
+            <option class="option" value="friends">Friend</option>
+        </select>
+        <br>
+	    <p>
+            <lable for="name">
+                Name:<abrr title="required" class="req">*</abrr>
+            </lable>
+            <input type="text" name="name" id="name" autofocus>
+        </p>
+        <p>
+            <lable for="mail">
+                Mail:<abrr title="required" class="req">*</abrr>
+            </lable>
+            <input type="text" name="mail" id="mail">
+        </p>
+        <p>
+            <lable for="pwd">
+                Password:<abrr title="required" class="req">*</abrr>
+            </lable>
+            <input type="password" name="pwd" id="pwd">
+        </p>
+    </div>
+            <label for="pet-select">Payment Type:</label>
+            <br>
+            <br>
+            <input class="pay_class"id="pay" type="radio" name="pay" value="cash" />Cash
+            <!--**************************** Offline payment hidden section**************************** -->
+            <div class="cash_hidden">
+                <p>
+                    Thank You, for your interest.
+                    We will book your slot for next 3 days,see you soon.🎍😃
+                </p>
+                <div><button type="button">Book My Slot🎍</button></div>
+            </div>
+            <br>
+            <input class="pay_class"id="pay" type="radio" name="pay" value="Online" />Online
+                <div class="online_hidden">
+                    <!--**************************** Online payment hidden section**************************** -->
+                    <h2>Credit Card Details</h2>
+                    <p>
+                        <label for="card">
+                            <span>Card Holder Name:</span>
+                            <strong><abrr title="required" class="req">*</abrr></strong>
+                        </label>
+                        <br>
+                        <input type="text" name="card_nm" placeholder="name">
+            
+                    </p>
+            
+                    <p>
+                        <lable for="number" style="float:left">
+                            <span>Card Number:</span>
+                            <strong><abrr title="required" class="req">*</abrr></strong><br>
+                            <input type="tel" id="number" name="card_number" autocomplete="cc-number" inputmode="numeric" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+                        </lable>
+                        <lable for="number" style="float:right">
+                            <span>CVV</span>
+                            <strong><abrr title="required" class="req">*</abrr></strong><br>
+                            <input type="password" id="number" name="card_number" autocomplete="cc-number" inputmode="numeric" size="3" maxlength="3" placeholder="xxx">
+                        </lable>
+                    </p>
+                    <br><br>
+                    <p>
+                        <div style="float:left">
+                        <label>Month<strong><abrr title="required" class="req">*</abrr></strong></label><br>
+                        <select name="Month">
+                            <option value="january">Month</option>
+                            <option value="january">January</option>
+                            <option value="february">February</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="august">August</option>
+                            <option value="september">September</option>
+                            <option value="october">October</option>
+                            <option value="november">November</option>
+                            <option value="december">December</option>
+                        </select>
+                        </div>
+
+                        <div style="float:right">
+                        <label>Year<strong><abrr title="required" class="req">*</abrr></strong></label>
+                        <br>
+                        <select name="Year">
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                        </select>
+                        </div>
+                    </p>
+                    <div style="position: relative;top: 40px;left:50px;"><button type="button">Procced To pay</button></div>
+                </div>
+            <br>
+            <br>
+            
+    </fieldset>
+	</section>
+    <br>
+    </form>
+    
+</div>
+<div class="footer">
+
+    </div>
+
+
